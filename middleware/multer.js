@@ -17,7 +17,7 @@ const FILE_TYPE = {
 const Storage = multer.diskStorage({
   destination: "uploads/",
   filename: (req, file, cb) => {
-    const fileName = file.originalname;
+    const fileName = file.originalname.replace(/[^a-zA-Z0-9_.]/g, "_");
     const videoExist = path.join(__dirname, `../uploads/${fileName}`);
     fs.stat(videoExist, (err, stat) => {
       if (err == null) {
