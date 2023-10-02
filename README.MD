@@ -1,3 +1,5 @@
+link to the screen recording : https://www.loom.com/share/c159c1c919954b2c9e208286267b865f?sid=3cfd05a4-a15a-4aa7-afa7-394c009b04e9
+
 # INTRODUCTION
 
 This API is a simple and user-friendly application programming interface designed for uploading video files to the server. No database is involved and so the videos are stored on ther server.
